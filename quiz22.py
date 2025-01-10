@@ -116,6 +116,8 @@ Kofi = {
         "name" : "Brian",
         "age" : 11,
         "grade" : 6,
-        "city" : "",
+        "city" : "Accra",
     },
 }
+
+print("Brian")

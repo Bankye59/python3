@@ -26,3 +26,18 @@ print(myTuple)
 (r, *p) = myTuple
 print(r)
 print(p)
+
+# Loop through a tuple
+for i in myTuple:
+    print(i)
+
+for i in range(len(myTuple)):
+    print(i, myTuple[i])
+
+q = 0
+while q < len(myTuple):
+    print(myTuple[q])
+    q += 1
+
+# Joining Tuples
+tp1 = ("a", "")
